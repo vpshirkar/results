@@ -13,7 +13,7 @@ body{
     
     display: flex;
     width: 100%;
-    height: 500px;
+    min-height: 100vh;
     background-color: aliceblue;
     align-items: center;
     justify-content: center;
@@ -177,4 +177,8 @@ button p{
     color: rgb(225, 232, 239);
     font-weight: 600;
     font-size: 12px;
+}
+button:hover{
+    background-image: linear-gradient(#6542FE,#342CE2);
+    cursor: pointer;
 }
